@@ -25,7 +25,7 @@
   :init
   (setq pygn-mode-python-executable "python3")
   :config
-  (setq pygn-mode-script-directory (expand-file-name "~/workspace/pygn-mode"))
+  (setq pygn-mode-script-directory (expand-file-name "/mnt/ed0/psktam/pygn-mode"))
   (map! :map pygn-mode-map
         :nig "h" #'pygn-mode-previous-move
         :nig "H" #'pygn-mode-previous-move-follow-board
